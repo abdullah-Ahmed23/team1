@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background-color: rgb(218, 221, 217);
+}
+.head-logo{
+    position: relative;
+}
+.Logo img{
+
+    position: absolute;
+    width: 10vh;
+    height: 10vh;
+    top: -5vh;
+}
+.btn-1{
+    padding: 8px 17px;
+    margin: 8px;
+    border: 10px solid rgb(158, 209, 158);
+    background-color: rgb(157, 216, 157);
+    border-radius: 60px;
+    transition: 0.3s ease-out;
+    position: relative;
+    left: 13vh;
+    
+}
+.btn-1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+
+.btn-1:hover,
+.btn-1 a:hover{
+    transform: scale(1.1);
+    color: black;
+}
+.nav{
+    display: flex;
+}
+.nav  li{
+    list-style-type: none;
+}
+.nav a{
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+.nav a:hover{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color:  rgb(157, 216, 157);;
+    color: white;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 32%;
+    left: -53vh;
+    text-align: center;
+    color: black;
+}
+.content img{
+    width: 22%;
+    position: absolute;
+    top: -30%;
+    left: 183vh;
+    text-align: center;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -41vh;
+}
+.icons{
+    font-size: 50px;
+    margin-right: 22vh;
+
+}
+.icons i{
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.icons i:hover{
+    color: rgb(255, 255, 255);
+    background-color:green ;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.icons button{
+    padding: 6px 30px;
+    background-color: black;
+    border: 13px solid black;
+    border-radius: 27px;
+    position: relative;
+    left: -26vh;
+    top: 7vh;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.icons button a{
+    color: white;
+    text-decoration: none;
+}
+.icons button:hover{
+    background-color: green;
+    color: white;
+    border: 15px solid green;
+}
